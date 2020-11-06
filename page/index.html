@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Пригон авто
+    </title>
+</head>
+
+<body>
+    <!-- main -->
+    <main class="main-info">
+        <form name="recruit" method="POST">
+            <fieldset>
+                <legend>
+                    Особисті дані
+                </legend>
+                <input type="text" name="name" placeholder="Імя" required>
+                <input type="text" name="name" placeholder="Прізвище" required>
+                <input type="text" name="name" placeholder="Номер УБД" required>
+                <br>
+                <label>
+                    Ваш номер телефону
+                </label>
+                <input type="tel" name="tel" value="" required>
+                <br>
+                <label>
+                    Чи раніше завозили машину
+                </label>
+                <input type="radio" name="experience" value="Так">
+                <label for="Так">
+                    Так
+                </label>
+                <input type="radio" name="experience" value="Ні">
+                <label for="Ні">
+                    Ні
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Вибір авто
+                </legend>
+                <select>
+                    <option value="oneyear">
+                        Седан
+                    </option>
+                    <option value="threeyear">
+                        Хетчбек
+                    </option>
+                    <option value="fiveyear">
+                        Універсал
+                    </option>
+                    <option value="burningmoscow">
+                        Мікроавтобус
+                    </option>
+                </select>
+                <select>
+                    <option value="oneyear">
+                        Audi
+                    </option>
+                    <option value="threeyear">
+                        Mazda
+                    </option>
+                    <option value="fiveyear">
+                        Mercedes
+                    </option>
+                    <option value="burningmoscow">
+                        VW
+                    </option>
+                    <option value="burningmoscow">
+                        Toyota
+                    </option>
+                </select>
+                <select>
+                    <option value="oneyear">
+                        США
+                    </option>
+                    <option value="threeyear">
+                        Німеччина
+                    </option>
+                    <option value="fiveyear">
+                        Литва
+                    </option>
+                    <option value="burningmoscow">
+                        Грузія
+                    </option>
+                    <option value="burningmoscow">
+                        Бельгія
+                    </option>
+                    <option value="burningmoscow">
+                        Японія
+                    </option>
+                    <option value="burningmoscow">
+                        Франція
+                    </option>
+                </select>
+                <br>
+            </fieldset>
+            <button type="reset" name="reset">
+                Очистити форму
+            </button>
+            <button type="submit" name="submit">
+                Відправити дані
+            </button>
+        </form>
+    </main>
+    <br>
+
+
+</body>
+
+</html>
